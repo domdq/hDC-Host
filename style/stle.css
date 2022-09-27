@@ -175,3 +175,24 @@ nav {
 .plans .recommended {
   background-color: #f45c57;
 }
+/* Responsivel */
+@media screen and (max-width: 900px) {
+  .plans-container,
+  .specialties ul {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .nav-item li {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .plans {
+    width: 100%;
+    max-width: 100%;
+  }
+}
